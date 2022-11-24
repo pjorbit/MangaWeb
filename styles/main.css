@@ -6,8 +6,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--cor-background-main);
-    color: rgb(206, 206, 206);
+    background: #0B183C;
+    background: linear-gradient(to top, #1d594e, #595959);
+    color: #191919;
 }
 
 .main-div {
@@ -33,7 +34,7 @@ nav ul li {
 
 nav ul li:hover {
     transform: scale(1.1);
-    color: var(--cor-background-card-img);
+    color: #999999;
 }
 
 #main-emalta {
@@ -188,6 +189,30 @@ nav ul li:hover {
 .card-reco:hover{
     filter: grayscale(0%);
     transform: translateX(2px);
+}
+
+.recom-btn {
+    height: 100px;
+    width: 100%;
+    border-radius: 0 0 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recom-btn p{
+    font-size: 30px;
+    color: #F23030;
+}
+
+.recom-btn button{
+    height: 30px;
+    width: 70px;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--cor-background-main);
+    font-weight: 700;
+    cursor: pointer;
 }
 
 #cards-container_recom-1{

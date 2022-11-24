@@ -26,7 +26,14 @@ nav ul{
 }
 nav ul li {
     list-style-type: none;
-    margin-right: 14px;
+    margin-right: 18px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    color: var(--cor-background-card-img);
 }
 
 #main-emalta {

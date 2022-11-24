@@ -55,8 +55,50 @@
     margin-right: 16px;
 }
 
+#dados-img-1 {
+    background: url(../img/onepiece-dir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dados-img-2 {
+    background: url(../img/onepunch-dir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dados-img-3 {
+    background: url(../img/chaisawn-dir.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dados-img-4 {
+    background: url(../img/berserk-dir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dados-img-5 {
+    background: url(../img/vagabond-dir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dados-img-6 {
+    background: url(../img/vinlandsaga-dir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .dados-text {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .dados-btn {
@@ -69,4 +111,11 @@
     color: var(--cor-cinza-texto);
     font-size: 16px;
     font-weight: bold;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+}
+
+.dados-btn:hover {
+    transform: scale(0.9);
+    color: var(--cor-background-card-img);
 }

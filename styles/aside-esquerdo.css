@@ -40,7 +40,10 @@
     display: flex;
     margin: 4px 0px 4px 0;
     align-items: center;
+    cursor: pointer;
 }
+
+
 
 .menu-item i{
     font-size: 15px;
@@ -49,6 +52,11 @@
 
 .menu-item p{
     font-size: 12px;
+    transition: ease-in-out 0.2s;
+}
+
+.menu-item p:hover {
+    color: var(--cor-verde-icones);
 }
 
 .menu-card {
@@ -66,4 +74,14 @@
 #esquerdo-sair i{
     margin-right: 6px;
     font-size: 15px;
+}
+
+#esquerdo-sair p{
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+#esquerdo-sair p:hover{
+    transform: scale(1.1);
+    color: #F23030;
 }

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@import url(aside-esquerdo.css);
+@import url(aside-direito.css);
+@import url(footer.css);
+@import url(main.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --cor-verde-icones: #1d594e;
+    --cor-cinza-texto: #c4cbd5;
+    --cor-background-lateral: #353535;
+    --cor-background-main: #595959;
+    --cor-background-card-img: #292929;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'asideesquerdo  main main asidedireito'
+    'asideesquerdo  main main asidedireito'
+    'asideesquerdo  main main asidedireito'
+    'asideesquerdo  main main asidedireito'
+    ;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--cor-cinza-texto);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor-background-card-img);
+    border-radius: 15px;
+    border: 2px solid var(--cor-cinza-texto);
+}

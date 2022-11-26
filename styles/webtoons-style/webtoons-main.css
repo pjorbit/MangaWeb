@@ -1,0 +1,252 @@
+main {
+    overflow-y: scroll;
+    height: 100vh;
+    grid-area: main;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0B183C;
+    background: linear-gradient(to top, #1d594e, #595959);
+    color: #191919;
+}
+
+.main-div {
+    width: 95%;
+    margin-bottom: 23px;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: #191919;
+}
+
+nav {
+    margin-top: 3rem;
+    border-bottom: 1px solid var(--cor-background-lateral);
+    font-size: 12px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin-right: 18px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    color: #999999;
+}
+
+#main-emalta {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#emlta-img-webtoons {
+    width: 698px;
+    height: 280px;
+    background-image: url(../../img/WebtoonsIMG/SoloLeveling-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(80%);
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-end;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#emlta-img-webtoons:hover {
+    filter: grayscale(0%);
+    transform: translateX(2px);
+}
+
+#img-texto {
+    color: var(--cor-background-main);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2rem;
+    transition: ease-in-out 0.3s;
+}
+
+#img-texto:hover {
+    color: var(--cor-verde-icones);
+}
+
+#texto-p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#continue-lendo, #recomendacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card {
+    height: 230px;
+    width: 290px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#card-img_back_webtoons-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    border: none;
+    background-image: url(../../img/WebtoonsIMG/Kaiju_PR.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+
+#card-img_back_webtoons-1:hover{
+    filter: grayscale(0%);
+    transform: translateX(2px);
+}
+
+#card-img_back_webtoons-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    border: none;
+    background-image: url(../../img/WebtoonsIMG/BattleGod_PR.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+
+#card-img_back_webtoons-2:hover{
+    filter: grayscale(0%);
+    transform: translateX(2px);
+}
+
+#card-img_back_webtoons-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    border: none;
+    background-image: url(../../img/WebtoonsIMG/Jujutso_PR.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+
+#card-img_back_webtoons-3:hover{
+    filter: grayscale(0%);
+    transform: translateX(2px);
+}
+
+.card-texto_dados {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+
+.card-reco {
+    border-radius: 24px;
+    filter: grayscale(80%);
+    height: 330px;
+    width: 220px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.card-reco:hover{
+    filter: grayscale(0%);
+    transform: translateX(2px);
+}
+
+.recom-btn_webtoons {
+    height: 90px;
+    width: 100%;
+    border-radius: 0 0 24px 24px;
+    background-color: #999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.recom-btn_webtoons p{
+    font-size: 15px;
+    color: #191919;
+}
+
+.recom-btn_webtoons button{
+    height: 30px;
+    width: 70px;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--cor-background-main);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#cards-container_recom_webtoons-1{
+    background: url(../../img/WebtoonsIMG/afterTheEnds_CL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#cards-container_recom_webtoons-2{
+    background: url(../../img/WebtoonsIMG/CantLevel_CL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cards-container_recom_webtoons-3{
+    background: url(../../img/WebtoonsIMG/SoloNecromancerCL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cards-container_recom_webtoons-4{
+    background: url(../../img/WebtoonsIMG/NanoMachine_CL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

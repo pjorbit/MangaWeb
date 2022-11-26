@@ -10,6 +10,16 @@ footer {
     gap: 20px;
 }
 
+footer li{
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+footer li:hover{
+    transform: scale(1.1);
+    color: #1d594e;
+}
+
 .footer-titulo {
     font-size: 14px;
     font-weight: 600;
@@ -61,6 +71,12 @@ footer {
     gap: 20px;
 }
 
+#newsletter i{
+    font-size: 18px;
+    padding: 3px;
+    cursor: pointer;
+}
+
 #footer-input-btn {
     display: flex;
     justify-content: space-between;
@@ -81,7 +97,15 @@ footer {
     border-radius: 5px;
     border: none;
     background-color: #191919;
-    font-size: 14px;
-    padding: 3px;
+    font-size: 12px;
+    padding: 6px;
     color: #c4cbd5;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+#footer-input-btn button:hover{
+    color: #191919;
+    background-color: #c4cbd5;
+    transform: translateX(2px);
 }

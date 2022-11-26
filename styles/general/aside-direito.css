@@ -28,6 +28,10 @@
     gap: 22px;
 }
 
+#dados-info i:hover{
+    cursor: pointer;
+}
+
 #info-img {
     display: flex;
     align-items: center;
@@ -53,6 +57,13 @@
 .card-dados {
     display: flex;
     margin-top: 6px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.card-dados:hover{
+    transform: translateX(-5px);
+    color: var(--cor-verde-icones);
 }
 
 .dados-img {

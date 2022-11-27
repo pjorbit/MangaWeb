@@ -138,3 +138,9 @@
     transform: scale(0.9);
     color: var(--cor-background-card-img);
 }
+
+@media (max-width: 670px) {
+    #aside-direito {
+        display: none;
+    }
+}

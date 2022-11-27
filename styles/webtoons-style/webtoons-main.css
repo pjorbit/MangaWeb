@@ -250,3 +250,28 @@ nav ul li:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width:1430px) {
+    .cards-container {
+        gap: 5px;
+    }
+}
+
+@media (max-width:1070px) {
+    #emlta-img-webtoons {
+        width: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .card-texto_dados p{
+       font-size: 10px;
+    }
+    .main-div {
+        margin-bottom: 5px;
+    }
+
+    .main-titulo_p{
+        font-size: 15px;
+    }
+}

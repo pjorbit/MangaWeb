@@ -43,8 +43,6 @@
     cursor: pointer;
 }
 
-
-
 .menu-item i{
     font-size: 15px;
     margin-right: 6px;
@@ -84,4 +82,25 @@
 #esquerdo-sair p:hover{
     transform: scale(1.1);
     color: #F23030;
+}
+
+@media (max-width:1330px) {
+    #aside-esquerdo{
+        padding: 5px;
+    }
+    #menu-desc_logo p{
+        font-size: 15px;
+    }
+    #menu-desc_logo i{
+        font-size: 15px;
+    }
+    .menu-titulo {
+        font-size: 10px;
+    }
+    .menu-item i{
+        font-size: 10px;
+    }
+    .menu-item p{
+        font-size: 10px;
+    }
 }
